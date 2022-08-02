@@ -2,13 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="icon" href="img/cvLogo.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Pain Cave - велопростір нового формату!</h1>
-    <img src='img/1.jpeg' alt="bike" width="600">
-    
+    <header class="header" id="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#expirience" class="nav-link">Expirience</a></li>
+                </ul>
+              </nav>
+              <div class="toggle">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line2"></div>
+              </div>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="container header-container">
+            <section class="section section-profile" id="profile">
+                <img src="img/avatar.jpg" alt class="section-profile-logo">
+                <div class="section-profile-title">
+                <h1 class="section-title main-title">Pysana Tetiana</h1>
+                <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Phone: <a href="tel:+380958105042" title='phone'>0958105042</a> </li>
+                    <li class="section-item contacts-item">EMAIL: <a href="mailto:t.pisanaia@gmail.com" title="email">t.pisanaia@gmail.com</a></li>
+                    <li class="section-item contacts-item">Telegram: <a href="https://t.me/t_pisanaia" title="telegram">@t_pisanaia</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    My main goal is to learn programming to write clean code. 
+                    I like to immerse myself in the process and understand 
+                    the details, build dependencies to achieve the result.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">KEY SKILLS</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Attention to detail </li>
+                        <li class="section-item">Multitasking</li>
+                        <li class="section-item">Good knowledge HTML, CSS and JavaScript</li>
+                        <li class="section-item">Initiative</li>
+                        <li class="section-item">English B1</li>
+                    </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">EXAMPLE CODE</h2>
+                <p></p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">EDUCATION</h2>
+                *self-education*
+                 2022 year
+                 Took course JS from The Net Ninja
+                 Took course IT Fundamentals from EPAM  
+                 Worked with algorithms JS, simple Python
+
+                *Business-analysis*
+                 IT School HILLEL
+                 November-Desember 2020
+                 Learned to identify customer requirements
+                Gained experience in writing use case
+            </section>
+            <section class="section" id="expirience">
+                <h2 class="section-title">WORK EXPIRIENCE</h2>
+                *Marketer*
+                  Knigoland 
+                  March 2019 - February 2020
+                  Carried out marketing for 41 book stores
+                  Represented the publishing house and organized the sale in over 20 exhibitions
+
+                *Progect-Manager (marketing)*
+                 StroyCity Development
+                 June 2020 - May 2022
+                 Drafted technical tasks for website development
+                 Analyzed of competitors at several levels
+                 Developed strategies for bringing a new product to market
+                 Managed 5 projects at the same time
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container header-container">
+
+        </div>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
